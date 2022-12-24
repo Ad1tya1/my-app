@@ -26,7 +26,7 @@ export default function TextForm(probs) {
         <button className="btn btn-primary mx-2" onClick={handleLoClick}>Conver to LowerCase</button>
     </div>
     <div className="container my-3">
-        <h2>Your text summary</h2>
+        <h2>Your text summary!</h2>
         <p>{text.split(" ").length} words, {text.length} characters</p>
         <p>{0.008 * text.length}Minutes read</p>
         <h2>Preview</h2>
