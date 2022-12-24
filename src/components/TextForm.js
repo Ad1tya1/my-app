@@ -15,6 +15,7 @@ export default function TextForm(probs) {
         let newText = text.toLowerCase();
         setText(newText)
     }
+
   return (
     <>
     <div className="container">
